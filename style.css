@@ -95,7 +95,7 @@ body, html{
 	justify-content: space-between;
 	line-height: 225px;
 	font-size: 100px;
-	font-family: 'Cinzel', serif;
+	font-family: 'Tiny5', serif;
 	color: #999999FF;
 	transition: 1s;
 }
@@ -117,7 +117,7 @@ body, html{
 	justify-content: space-between;
 	line-height: 225px;
 	font-size: 100px;
-	font-family: 'Philosopher', sans-serif;
+	font-family: 'Calibri', sans-serif;
 	color: #999999FF;
 	transition: 1s;
 }
@@ -331,4 +331,5 @@ body, html{
 	margin: 2.5%;
 	border-radius: 3px;
 	font-size: 25px;
+
 }
