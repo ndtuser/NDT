@@ -415,5 +415,10 @@ body, html{
 .info-box p{
 	color: #FFFFFF;
 }
+.new1 p{
+	margin-left: 10px;
+	margin-right: 10px;
+	color: white;
+}
 
 
