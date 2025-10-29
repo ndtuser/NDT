@@ -40,3 +40,22 @@ function updateInfo(pluginName) {
     <p>${info.desc}</p>
   `;
 }
+
+  const navLinks = document.querySelectorAll('.main-nav a[href^="#"]');
+
+  navLinks.forEach(link => {
+    link.addEventListener('click', function (e) {
+      e.preventDefault(); // normal link davranışını engelle
+
+      const targetId = this.getAttribute('href').substring(1); // "#" işaretini çıkar
+      const targetElement = document.getElementById(targetId);
+
+      if (targetElement) {
+        // Yumuşak kaydırma
+        targetElement.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
+    });
+  });
