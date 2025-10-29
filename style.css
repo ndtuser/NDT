@@ -57,7 +57,7 @@ body, html{
 	transition: 1s;
 }
 .button_mne:hover{
-	color: #2020F0;
+	color: #8080F0;
 	transition: 1s;
 }
 .button_vora:hover{
@@ -65,11 +65,11 @@ body, html{
 	transition: 1s;
 }
 .button_about:hover{
-	color: #008800;
+	color: #319931;
 	transition: 1s;
 }
 .button_carrier:hover{
-	color: #6E00FF;
+	color: #F95050;
 	transition: 1s;
 }
 .button_sss:hover{
@@ -415,3 +415,4 @@ body, html{
 .info-box p{
 	color: #FFFFFF;
 }
+
