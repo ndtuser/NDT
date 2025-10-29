@@ -5,14 +5,17 @@
 body, html{
 	height: 100%;
 	font-family: 'Kanit', sans-serif;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
 }
 #header1{
-	background: rgba(0,0,0,0.2);
+	background-image: url("main-bg.png");
 	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-right: 15px;
 	padding-left: 35px;
-	opacity: 0.8;
 }
 .logo{
 	color: #222222FF;
@@ -50,7 +53,7 @@ body, html{
 }
 .main-nav ul a{
 	text-decoration: none;
-	color: #555555;
+	color: #fff;
 	transition: 1s;
 }
 .button_mne:hover{
@@ -58,7 +61,7 @@ body, html{
 	transition: 1s;
 }
 .button_vora:hover{
-	color: #998000;
+	color: #f98000;
 	transition: 1s;
 }
 .button_about:hover{
@@ -81,7 +84,7 @@ body, html{
 .main1{
 	width: 100%;
 	height: 250px;
-	background: #444444FF;
+	background: rgba(0,0,0,0.25);
 	text-align: center;
 	align-items: center;
 	justify-content: space-between;
@@ -97,13 +100,14 @@ body, html{
 	line-height: 225px;
 	font-size: 100px;
 	font-family: 'Tiny5', serif;
-	color: #999999FF;
+	color: #666666;
 	transition: 1s;
+	opacity: 1;
 }
 .main2{
 	width: 100%;
 	height: 250px;
-	background: #444444FF;
+	background: rgba(0,0,0,0.25);
 	text-align: center;
 	align-items: center;
 	justify-content: space-between;
@@ -119,13 +123,13 @@ body, html{
 	line-height: 225px;
 	font-size: 100px;
 	font-family: 'Calibri', sans-serif;
-	color: #999999FF;
+	color: #666666;
 	transition: 1s;
 }
 .main3{
 	width: 100%;
 	height: 250px;
-	background: #444444FF;
+	background: rgba(0,0,0,0.25);
 	text-align: center;
 	align-items: center;
 	justify-content: space-between;
@@ -140,14 +144,14 @@ body, html{
 	justify-content: space-between;
 	line-height: 225px;
 	font-size: 100px;
-	font-family: 'Kanit', sans-serif;
-	color: #999999FF;
+	font-family: 'Tiny5', sans-serif;
+	color: #666666;
 	transition: 1s;
 }
 .main4{
 	width: 100%;
 	height: 250px;
-	background: #444444FF;
+	background: rgba(0,0,0,0.25);
 	text-align: center;
 	align-items: center;
 	justify-content: space-between;
@@ -162,8 +166,8 @@ body, html{
 	justify-content: space-between;
 	line-height: 225px;
 	font-size: 100px;
-	font-family: 'Kanit', sans-serif;
-	color: #999999FF;
+	font-family: 'Tiny5', sans-serif;
+	color: #666666;
 	transition: 1s;
 }
 .bottom{
@@ -176,13 +180,22 @@ body, html{
 }
 .background{
 	height: 100%;
-	background: #666666FF;
+	background-image: url("plugin-bg.png");
 	background-size: cover;
 	background-attachment: fixed;
 }
 #bg1{
 	background-image: url("mc.png")
 } 
+#main1{
+	background-image: url("mc-plg.png");
+}
+#main3{
+	background-image: url("mc-plg.png");
+}
+#main4{
+	background-image: url("mc-plg.png");
+}
 .bg1{
 	height: 100%;
 	background: black;
@@ -209,19 +222,19 @@ body, html{
 	cursor:default;
 } 
 .main1 p:HOVER{
-	color: #888FFFFF;
+	color: #8080F0;
 	transition: 1s;
 }
 .main2 p:HOVER{
-	color: #FFFF00;
+	color: #f98000;
 	transition: 1s;
 }
 .main3 p:HOVER{
-	color: #ff3a3a;
+	color: #319931;
 	transition: 1s;
 }
 .main4 p:HOVER{
-	color: #ff9a0a;
+	color: #F95050;
 	transition: 1s;
 }
 .telecom1{
@@ -309,7 +322,7 @@ body, html{
 .news1-div{
 	float: left;
 	height: 75%;
-	background: #afafaf;
+	background-color: rgba(0,0,0,0.2);
 	width: 25%;
 	margin: 2.5%;
 	border-radius: 3px;
@@ -318,7 +331,7 @@ body, html{
 .news2-div{
 	float: left;
 	height: 75%;
-	background: #afafaf;
+	background-color: rgba(0,0,0,0.2);
 	width: 25%;
 	margin: 2.5%;
 	border-radius: 3px;
@@ -327,9 +340,78 @@ body, html{
 .news3-div{
 	float: left;
 	height: 75%;
-	background: #afafaf;
+	background-color: rgba(0,0,0,0.2);
 	width: 25%;
 	margin: 2.5%;
 	border-radius: 3px;
 	font-size: 25px;
+}
+.news-date{
+	color: white;
+}
+.ncore{
+	border-radius: 10px;
+	transition: 0.5s;
+	margin: 10px;
+}
+.ncore:HOVER{
+	border-radius: 16px;
+	width: 144px;
+	height: 144px;
+	transition: 0.5s;
+}
+.nvault{
+	border-radius: 10px;
+	transition: 0.5s;
+	margin: 10px;
+}
+.nvault:HOVER{
+	border-radius: 16px;
+	width: 144px;
+	height: 144px;
+	transition: 0.5s;
+}
+.nbank{
+	border-radius: 10px;
+	transition: 0.5s;
+	margin: 10px;
+}
+.nbank:HOVER{
+	border-radius: 16px;
+	width: 144px;
+	height: 144px;
+	transition: 0.5s;
+}
+.mc-plugin{
+	height: 225px;
+	width: 100%;
+	align-items: center;
+	background-color: rgba(0,0,0,0.3);
+	display: flex;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.plugin{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 180px;
+	width: 180px;
+	border-radius: 16px;
+}
+.plugin img.selected {
+	height: 144px;
+	width: 144px;
+	border-radius: 16px;
+}
+.info-box{
+	padding: 20px;
+}
+.info-box h2{
+	margin-bottom: 20px;
+	color: #F2F2F2;
+}
+.info-box p{
+	color: #FFFFFF;
 }
