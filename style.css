@@ -187,13 +187,13 @@ body, html{
 #bg1{
 	background-image: url("mc.png")
 } 
-#main1{
+#plugins{
 	background-image: url("mc-plg.png");
 }
-#main3{
+#downloads{
 	background-image: url("mc-plg.png");
 }
-#main4{
+#updates{
 	background-image: url("mc-plg.png");
 }
 .bg1{
@@ -415,4 +415,5 @@ body, html{
 .info-box p{
 	color: #FFFFFF;
 }
+
 
