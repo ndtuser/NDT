@@ -421,4 +421,81 @@ body, html{
 	color: white;
 }
 
+.download-1{
+	float: left;
+	height: 15%;
+	background-color: rgba(0,0,0,0.2);
+	width: 95%;
+	margin: 2.5%;
+	border-radius: 3px;
+	font-size: 25px;	
+}
+.download-box{
+	display: flex;
+	background-color: rgba(0, 0, 0, 0.4);
+	color: white;
+	width: 97%;
+	height: 60%;
+	padding: 10px;
+	font-family: Arial, sans-serif;
+	margin: 1%;
+	border-radius: 3px;
+}
+select, button {
+	padding: 5px;
+	border-radius: 6px;
+	border: none;
+	font-size: 16px;
+}
+
+select {
+	width: 40%;
+	align-content: center;
+	justify-content: center;
+}
+
+button {
+	background-color: #4caf50;
+	color: white;
+	cursor: pointer;
+	transition: background 0.2s ease;
+}
+
+button:hover {
+	background-color: #45a049;
+}
+#version{
+	justify-content: center;
+	align-content: center;
+}
+.dl-1{
+	display: flex;
+	align-content: center;
+	height: 100%;
+	width: 70%;
+	text-align: center;
+}
+.dl-1 img{
+	border-radius: 10px;
+	align-content: center;
+}
+.dl-1 h2{
+	font-family: "Tiny5";
+	align-content: center;
+	margin: 10px;
+}
+.dl-1 p{
+	text-align: center;
+	align-content: center;
+	margin-top: 10px;
+	margin-left: 30px;
+	font-size: 14px;
+	color: #aaffaa;
+}
+.dl-2{
+	width: 30%;
+	align-content: center;
+	font-family: "Tiny5";
+}
+
 
