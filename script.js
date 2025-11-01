@@ -70,6 +70,11 @@ function updateInfo(pluginName) {
     if (!selectedValue) {
       statusText.textContent = "Please select a version first.";
       statusText.style.color = "#ff8080";
+
+      setTimeout(() => {
+		    statusText.textContent = "";
+	    }, 5000);
+      
       return;
     }
 
@@ -77,6 +82,11 @@ function updateInfo(pluginName) {
     statusText.textContent = "Downloading Starting...";
     statusText.style.color = "#aaffaa";
 
+    setTimeout(() => {
+		  statusText.textContent = "";
+	  }, 5000);
+    
     // İndir linkine yönlendir
     window.location.href = selectedValue;
   });
+
