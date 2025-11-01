@@ -59,3 +59,24 @@ function updateInfo(pluginName) {
       }
     });
   });
+
+    const downloadBtn = document.getElementById("downloadBtn");
+  const versionSelect = document.getElementById("version");
+  const statusText = document.getElementById("statusText");
+
+  downloadBtn.addEventListener("click", () => {
+    const selectedValue = versionSelect.value;
+
+    if (!selectedValue) {
+      statusText.textContent = "Please select a version first.";
+      statusText.style.color = "#ff8080";
+      return;
+    }
+
+    // Mesaj göster
+    statusText.textContent = "Downloading Starting...";
+    statusText.style.color = "#aaffaa";
+
+    // İndir linkine yönlendir
+    window.location.href = selectedValue;
+  });
